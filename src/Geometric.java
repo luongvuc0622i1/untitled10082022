@@ -19,6 +19,7 @@ public class Geometric {
     public void setFilled(String filled) {
         this.filled = filled;
     }
+    @Override
     public String toString() {
         return "created with \"" + color + "\" color and " +
                 (filled == null ? "no fill" : "filled with \"" + filled + "\" color");

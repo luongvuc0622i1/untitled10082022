@@ -28,6 +28,7 @@ public class Circle extends Geometric {
     public void printCircle() {
         System.out.println("The " + getColor() + " circle is created with the radius is " + radius);
     }
+//    @Override
 //    public String toString() {
 //        return super.toString() + "\nradius is " + radius;
 //    }
